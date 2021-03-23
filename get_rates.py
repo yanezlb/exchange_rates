@@ -16,7 +16,7 @@ try:
                                     port="5432",
                                     database="globalnet")
 
-    initial_date = datetime.strptime('2019-01-01', '%Y-%m-%d')
+    initial_date = datetime.strptime('2018-12-31', '%Y-%m-%d')
     for value in range(0, 694):
         initial_date += timedelta(days = 1)
         date_str = initial_date.strftime('%Y-%m-%d')
