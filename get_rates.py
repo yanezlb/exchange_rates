@@ -9,7 +9,7 @@ API_ID = "d54b6d212cf142caaa7ac1c28b1c260c"
 SYMBOLS = "ARS%2CPEN%2CUYU%2CPYG"
 
 try:
-    # Connect to database
+    
     connection = psycopg2.connect(user="postgres",
                                     password="postgres",
                                     host="127.0.0.1",
